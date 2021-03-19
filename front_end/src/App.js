@@ -5,7 +5,7 @@ import InputBar from './Components/InputBar';
 import CalculationLogs from './Components/CalculationLogs';
 import socketIOClient from "socket.io-client";
 
-const socket = socketIOClient("https://sheltered-hollows-77587/");
+const socket = socketIOClient("https://secure-hamlet-62938.herokuapp.com/");
 
 function App() {
   const [logs, setLogs] = useState(["Couldn't Connect to Server"]);
